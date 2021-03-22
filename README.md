@@ -1,45 +1,75 @@
 # Foo Bar Finder
 
-## Project Description
+![html](https://img.shields.io/github/languages/top/jxhnkndl/foo-bar-finder?style=plastic)
+![commit](https://img.shields.io/github/last-commit/jxhnkndl/foo-bar-finder?style=plastic)
+![license](https://img.shields.io/static/v1?label=license&message=MIT&color=orange&style=plastic)
 
-The Foo Bar Finder is an application that utilizes a combination of VS Code, HTML, CSS, Javascript, and Jquery. The team developed this application that allows the user to pick whether they would like a drink or food recipe at the top of the page. The user will then have the option to either enter an ingredient or choose from a food or drink category. Once the ingredient or a category has been chosen the application will return a random recipe from an API that will contain the ingredient or category the user selected. The user will then be able to click forward and backward through the recipes. When the user finds a recipe they would like to save they have the option to save the recipe and it will be stored in local storage and placed on the left side of the web page. The application calls on two different API's. The API we selected for food recipes is the TheMealDB and the API that returns drink recipes is TheCocktailDB.
 
-### Pictures of Website Application
+## Table of Contents
+* [Deployed Application](#deployed-application)
+* [Description](#description)
+* [Technologies](#technologies)
+* [Usage](#usage)
+* [Application Demo](#application-demo)
+* [License](#license)
+* [Contact](#contact)
 
-## Recipe Gif
 
-![Application Preview](assets/Images/recipe-side-demo.gif)
+## Deployed Application
+Foo Bar Finder is live. [Click to visit the deployed application](https://todtsies.github.io/Project-1/).
 
-## Drinks Gif
 
-![Application Preview](assets/Images/drink-side-demo.gif)
+## Description
+Foo Bar Finder is browser-based web application for busy foodies. Toggling the application between food and drink modes, users can search for new meal and cocktail recipes by category or main ingredient. Favorites can be saved locally for quick and convenient future reference.
 
-### Built With
 
-- VS Code
-- HTML
-- CSS
-- Font Awesome
-- Bootstrap
-- Javascript
-- Jquery
-- TheMealDB API (https://www.themealdb.com/api.php)
-- TheCocktailDB API (https://www.thecocktaildb.com/api.php)
+## Technologies
+* HTML
+* CSS
+* Bootstrap 4
+* JavaScript
+* jQuery
+* AJAX
+* TheMealDB API - [View Docs](https://www.themealdb.com/api.php)
+* TheCocktailDB API - [View Docs](https://www.thecocktaildb.com/api.php)
 
-<!-- CONTACT -->
-
-## Contact
-
-J.K. Royston - jkroyston@gmail.com
-
-Emily Todt - emilybtodt@gmail.com
-
-Kevin Spoth - kspoth@richmond.edu
-
-Project repository link: (https://github.com/todtsies/Project-1)
 
 ## Usage
+* Users can toggle between searching for recipes and searching for cocktails by toggle the **Food** and **Drinks** buttons in the top righthand corner of the navbar.
 
-https://todtsies.github.io/Project-1/
+* Each side of the user interface loads a random food or cocktail recipe on launch.
 
-`https://github.com/todtsies/Project-1`, `Project-1`,
+* The chevrons on either side of the recipe title can be used to cycle forward and backward through the search results if more than one recipe matches the search parameters.
+
+* If a user finds a recipe or a cocktail they'd like to save, it's as simple as clicking the **Save Recipe** or **Save Drink** button below the search form. Recipes and drinks are saved locally inside the browser. 
+
+* Deleting a recipe or drink deletes it both from the user interface and from local storage.
+
+
+## Application Demo
+UX/UI demonstration using desktop layout on the **recipe side:**
+
+![Recipes Preview](assets/demo-gifs/recipe-side-demo.gif)
+
+UX/UI demostration collapsing from desktop to mobile layout on the **drinks side:**
+
+![Drinks Preview](assets/demo-gifs/drink-side-demo.gif)
+
+
+## License
+Copyright (c) 2021 J.K. Royston, Emily Todt, and Kevin Spoth  
+Licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+
+## Contact
+J.K. Royston  
+<jkroyston@gmail.com>  
+[GitHub](https://www.github.com/jxhnkndl)  
+
+Emily Todt  
+<emilybtodt@gmail.com>  
+[GitHub](https://www.github.com/todtsies)  
+
+Kevin Spoth  
+<kspoth@richmond.edu>  
+[GitHub](https://www.github.com/kspoth)
